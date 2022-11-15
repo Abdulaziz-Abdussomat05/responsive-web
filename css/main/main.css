@@ -63,6 +63,7 @@ header .header__container a {
     position: absolute;
     left: -100%;
     top: 0;
+    transition: all ease 0.5s;
   }
   header .header__container .btn-links li {
     text-align: center;
