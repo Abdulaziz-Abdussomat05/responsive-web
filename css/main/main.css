@@ -8,6 +8,7 @@
 .container {
   max-width: 1240px;
   margin: 0 auto;
+  padding: 20px;
 }
 
 ul {
@@ -65,7 +66,7 @@ header .header__container a {
   }
   header .header__container .btn-links li {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 50px;
   }
   header .header__container .btn-links li a {
     color: white;
