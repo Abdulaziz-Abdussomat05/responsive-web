@@ -3,6 +3,7 @@
   padding: 100px 0;
   position: relative;
  
+
   .hero__box {
     display: flex;
     justify-content: space-between;
@@ -119,9 +120,13 @@ img {
         img {
           width: 450px;
           left: 34%;
+          top: 30%;
         }
         h3 {
-          right: 15%;
+          right: 10%;
+          top: 23%;
+          color: white;
+
         }
       }
       .hero__left {
@@ -155,6 +160,10 @@ img {
           top: 85%;
           left: 0;
           width: 100%;
+        }
+        h3 {
+          top: 78%;
+          right: 30%;
         }
       }
       .circles {

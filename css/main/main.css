@@ -21,7 +21,7 @@ a {
 }
 
 header {
-  padding: 25px 0;
+  padding: 20px 0;
 }
 header .header__container {
   display: flex;
@@ -86,21 +86,34 @@ header .header__container a {
   }
 }
 @media (max-width: 785px) {
+  header {
+    width: 100%;
+    position: fixed;
+    background-color: #343434;
+    color: white;
+    padding: 0;
+    opacity: 0.7;
+  }
   header .header__container {
     justify-content: space-between;
     align-items: center;
   }
+  header .header__container .logo {
+    width: 140px;
+  }
   header .header__container .phone {
     display: block;
     cursor: pointer;
+    color: white;
   }
   header .header__container .mobile-header {
-    font-size: 35px;
+    color: white;
+    font-size: 15px;
     cursor: pointer;
   }
   header .header__container label {
     display: block;
-    font-size: 38px;
+    font-size: 15px;
     cursor: pointer;
   }
   header .header__container .header__links {
@@ -228,9 +241,12 @@ header .header__container a {
   .hero__section .hero__box .hero__right img {
     width: 450px;
     left: 34%;
+    top: 30%;
   }
   .hero__section .hero__box .hero__right h3 {
-    right: 15%;
+    right: 10%;
+    top: 23%;
+    color: white;
   }
   .hero__section .hero__box .hero__left {
     margin-right: 25px;
@@ -257,6 +273,10 @@ header .header__container a {
     top: 85%;
     left: 0;
     width: 100%;
+  }
+  .hero__section .hero__box .hero__right h3 {
+    top: 78%;
+    right: 30%;
   }
   .hero__section .hero__box .circles {
     position: absolute;

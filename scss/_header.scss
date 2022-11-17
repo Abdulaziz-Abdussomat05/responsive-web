@@ -1,11 +1,11 @@
 header {
-  padding: 25px 0;
-
+padding: 20px 0;
   .header__container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 60px;
+    
   .btn-links {
   display: none;
   }
@@ -74,20 +74,29 @@ header {
 
 @media (max-width: 785px) {
   header {
+    width: 100%;
+    position: fixed;
+    background-color: #343434;
+    color: white;
+    padding: 0;
+    opacity: .7;
     .header__container {
-
+        .logo {
+          width: 140px;
+        }
        .phone {
         display: block;
         cursor: pointer;
+        color: white;
       } 
       .mobile-header {
-        
-        font-size: 35px;
+        color: white;
+        font-size: 15px;
         cursor: pointer;
       }
       label {
         display: block;
-        font-size:38px;
+        font-size:15px;
         cursor: pointer;
       }
       justify-content: space-between;
