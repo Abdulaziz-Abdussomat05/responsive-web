@@ -301,4 +301,55 @@ header .header__container a {
     left: 50%;
     font-size: 9px;
   }
+}
+.products__section {
+  margin-top: 200px;
+}
+.products__section ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+}
+.products__section ul i {
+  cursor: pointer;
+}
+.products__section ul li {
+  background-color: #F2F3F5;
+  padding: 20px;
+}
+.products__section ul li img {
+  width: 270px;
+  height: 257px;
+}
+.products__section .product__btn {
+  text-align: center;
+  margin-top: 50px;
+}
+.products__section .product__btn a {
+  color: white;
+  background-color: #FF9619;
+  padding: 15px 20px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1065px) {
+  .products__section ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .products__section ul i {
+    display: none;
+  }
+}
+@media (max-width: 680px) {
+  .products__section {
+    margin-top: 340px;
+  }
+  .products__section ul {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .products__section ul i {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
